@@ -1,0 +1,64 @@
+{
+    "name": "piwind/username-request",
+    "description": "Allow users to request new usernames",
+    "keywords": [
+        "flarum",
+        "Friends of Flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/piwind/username-request/issues",
+        "source": "https://github.com/piwind/username-request"
+    },
+    "require": {
+        "flarum/core": "^1.8.0"
+    },
+    "authors": [
+        {
+            "name": "piwind",
+            "homepage": "https://github.com/piwind",
+            "role": "Developer"
+        },
+        {
+            "name": "FoF Team",
+            "email": "team@friendsofflarum.org",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Piwind\\UserRequest\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Username Request",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-user-edit",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            },
+            "optional-dependencies": [
+                "flarum/nicknames"
+            ]
+        },
+        "flarum-cli": {
+            "modules": {
+                "githubActions": true
+            }
+        }
+    },
+    "require-dev": {
+        "flarum/nicknames": "^1.8",
+        "flarum/phpstan": "*"
+    },
+    "scripts": {
+        "analyse:phpstan": "phpstan analyse",
+        "clear-cache:phpstan": "phpstan clear-result-cache"
+    },
+    "scripts-descriptions": {
+        "analyse:phpstan": "Run static analysis"
+    }
+}
