@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of piwind/username-request.** Not for installation: use [Packagist](https://packagist.org/packages/piwind/username-request) or the [upstream repository](https://github.com/piwind/username-request).
 
-**0** versions archived · Latest: [`v1.3.0`](https://github.com/flarchive/piwind-username-request/tree/archive/v1.3.0) · License: `MIT` · Flarum: `^1.8.0`
+**1** versions archived · Latest: [`v1.3.0`](https://github.com/flarchive/piwind-username-request/tree/archive/v1.3.0) · License: `MIT` · Flarum: `^1.8.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.3.0` | 2025-05-16 | `^1.8.0` | [Browse](https://github.com/flarchive/piwind-username-request/tree/archive/v1.3.0) |
 
 Catalog entry: [packages/piwind-username-request.json](https://github.com/flarchive/archive-index/blob/main/packages/piwind-username-request.json)
 
